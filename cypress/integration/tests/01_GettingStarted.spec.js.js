@@ -1,6 +1,6 @@
 
-describe("My first test suite", () => {
-    it("My first test case",()=>{
+describe("First Test suite", () => {
+    it("My first test case: Getting Started",()=>{
         cy.fixture("site-data.json").as("siteData").then((siteData)=> {
             cy.visit(siteData.testSite2);
             cy.get('.ProductCardComponent .details__header--title').should("have.length", 20);

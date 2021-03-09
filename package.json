@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/anandhaprakash04/cypress_playground1#readme",
   "dependencies": {
-    "cypress": "^6.6.0"
+    "cypress": "^6.6.0",
+    "cypress-intellij-reporter": "^0.0.6"
   }
 }
